@@ -37,7 +37,7 @@ function initializeMap(data) {
       antialias: true,
       scrollZoom: false,
     });
-//test
+
     // Add navigation control to the map
     map.on("load", function () {
       map.addControl(new mapboxgl.NavigationControl(), "bottom-right");
